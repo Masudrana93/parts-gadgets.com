@@ -1,0 +1,166 @@
+/* -------Header CSS Start ------ */
+.top-bar {
+  background: #333;
+  color: #fff;
+  font-size: 14px;
+  padding: 10px 0;
+}
+
+.top-bar a,
+.top-bar span {
+  color: #fff;
+  margin-right: 15px;
+  text-decoration: none;
+}
+
+.social-icon-border a {
+  border: 1px solid #686868;
+  border-radius: 3px;
+  padding: 3px 8px;
+}
+
+.social-icon-border a:hover {
+  background: #ff1e28;
+  color: #fff;
+  transition: all 0.3s ease;
+}
+
+.login-and-register a:hover {
+  color: #ff1e28;
+  transition: all 0.3s ease;
+}
+
+.line-color {
+  color: #686868 !important;
+}
+
+/* Main Header */
+.main-header {
+  padding: 15px 0;
+}
+
+.logo i {
+  color: #ff1e28;
+  font-size: 30px;
+  margin-right: 5px;
+}
+
+.search-container .form-select,
+.search-container .form-control {
+  border-radius: 0;
+  border-right: none;
+}
+
+.search-container .btn-search {
+  background: #ff1e28;
+  color: #fff;
+  border: none;
+  border-radius: 0;
+}
+
+.cart-info {
+  position: relative;
+  display: flex;
+  align-items: center;
+  padding: 5px 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.cart-info span {
+  font-weight: bold;
+  color: #ff1e28;
+  margin-left: 5px;
+}
+
+/* Nav Bar  */
+.nav-main {
+  background: #ff1e28;
+  font-size: 16px;
+}
+
+.nav-main .nav-link {
+  color: #fff !important;
+  padding: 15px;
+  font-weight: 500;
+}
+
+.nav-main .dropdown:hover>.dropdown-menu {
+  display: block;
+  margin-top: 0;
+}
+
+.nav-main .dropdown-menu {
+  border: none;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+}
+
+.category-menu {
+  width: 250px;
+  position: absolute;
+  z-index: 1000;
+}
+
+.category-menu ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.category-menu li {
+  border-bottom: 1px solid #eee;
+  position: relative;
+}
+
+.category-menu li a {
+  display: flex;
+  align-items: center;
+  padding: 10px 15px;
+  color: #000;
+  text-decoration: none;
+}
+
+.category-menu li a i {
+  margin-right: 10px;
+  width: 20px;
+  text-align: center;
+}
+
+.category-menu li:hover {
+  background: #ff1e28;
+}
+
+.category-menu li:hover>a {
+  color: #fff;
+}
+
+.category-menu .submenu {
+  display: none;
+  position: absolute;
+  left: 100%;
+  top: 0;
+  background: #fff;
+  width: 250px;
+  border: 1px solid #ccc;
+}
+
+.category-menu li:hover .submenu {
+  display: block;
+}
+
+/* Responsive */
+@media (max-width: 992px) {
+  .search-container {
+    display: none;
+  }
+
+  .top-bar .d-flex {
+    flex-wrap: wrap;
+  }
+
+  .english-usd {
+    border-top: 1px solid #ccc;
+  }
+}
+
+/* -------Header CSS End ------ */
