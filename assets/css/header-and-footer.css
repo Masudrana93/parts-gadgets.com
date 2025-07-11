@@ -189,26 +189,27 @@
 }
 /* checking done */
 
-footer h5,
+/* footer h5,
 footer h6 {
   color: #fff;
   font-weight: 600;
   text-transform: uppercase;
-}
+} */
 
 /* List Items */
-footer ul {
+/* footer ul {
   padding-left: 0;
   list-style: none;
-}
+} */
 
-footer ul li {
+.footer-bg-color ul li a {
   margin-bottom: 8px;
   cursor: pointer;
   transition: color 0.3s;
+  
 }
 
-footer ul li:hover {
+.footer-bg-color ul li a:hover {
   color: #ff3c3c;
 }
 
