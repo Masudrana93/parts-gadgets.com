@@ -187,45 +187,33 @@
   font-size: 15px;
   line-height: 1.7;
 }
-/* checking done */
 
-/* footer h5,
-footer h6 {
-  color: #fff;
-  font-weight: 600;
-  text-transform: uppercase;
-} */
 
-/* List Items */
-/* footer ul {
-  padding-left: 0;
-  list-style: none;
-} */
-
-.footer-bg-color ul li a {
+.bottom-menu ul li a {
   margin-bottom: 8px;
-  cursor: pointer;
   transition: color 0.3s;
+  text-decoration: none;
+  color: white;
   
 }
 
-.footer-bg-color ul li a:hover {
+.bottom-menu ul li a:hover {
   color: #ff3c3c;
 }
 
 /* Contact Icons */
-footer p i {
+.contact-us p i {
   color: #ff3c3c;
   margin-right: 8px;
-}
+} 
 
 /* Divider Line */
-footer hr {
+.footer-rul hr {
   border-top: 1px solid #444;
 }
 
 /* Social Icons */
-footer .btn {
+.social-icon-hover .btn {
   background-color: #fff;
   color: #000;
   width: 36px;
@@ -238,18 +226,18 @@ footer .btn {
   transition: all 0.3s ease;
 }
 
-footer .btn:hover {
+.social-icon-hover .btn:hover {
   background-color: #ff3c3c;
   color: #fff;
 }
 
 /* Newsletter Form */
-footer input[type="email"] {
+.newsletter-form input[type="email"] {
   border-radius: 0;
   border: none;
 }
 
-footer button[type="submit"] {
+.newsletter-form button[type="submit"] {
   border-radius: 0;
   background-color: #ff3c3c;
   border: none;
@@ -259,21 +247,21 @@ footer button[type="submit"] {
   transition: background-color 0.3s ease;
 }
 
-footer button[type="submit"]:hover {
+.newsletter-form button[type="submit"]:hover {
   background-color: #cc0000;
 }
 
 /* Payment Icons */
-footer img {
+.payment-icon img {
   margin: 5px;
   max-height: 30px;
 }
 
 /* Responsive Fixes */
-@media (max-width: 767.98px) {
+/* @media (max-width: 767.98px) {
   footer .row > div {
     margin-bottom: 30px;
   }
-}
+} */
 
 /*------- Footer CSS End -------- */
