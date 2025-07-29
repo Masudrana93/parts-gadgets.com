@@ -8,7 +8,7 @@ var swiper = new Swiper(".mySwiper", {
 
 //for Section-1 == Shop by category Slider
 var swiper = new Swiper(".mySwiper2", {
-      slidesPerView: 4,
+      slidesPerView: 5,
       spaceBetween: 30,
       navigation: {
         nextEl: ".category-button-next2",

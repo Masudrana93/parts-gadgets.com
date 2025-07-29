@@ -302,3 +302,31 @@
       object-fit: cover;
     }
 /*---- Section-1 == Swiper Slider CSS End ---*/
+
+/* Slider button hover css  */
+.category-button-prev2:hover{
+ background-color: #ff1e28;
+ color: #fff;
+}
+.category-button-prev2, .category-button-next2{
+  transition: all 0.4s ease;
+}
+.category-button-next2:hover{
+ background-color: #ff1e28;
+ color: #fff;
+}
+.bg-color{
+  background-color: #f5f5f5;
+}
+.bg-color-slider-none{
+  background: none;
+}
+.cat-name-hover>h5>a:hover{
+  background-color: red;
+  color: white !important;
+} 
+.cat-name-hover>h5>a{
+  transition: all 0.3s ease;
+  font-size: 16px;
+  font-weight: 600;
+}
