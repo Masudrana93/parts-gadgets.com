@@ -306,14 +306,14 @@
 /* Slider button hover css  */
 .button-hover-prev:hover{
  background-color: #ff1e28;
- color: #fff;
+ color: white !important;
 }
 .button-hover-prev, .button-hover-next{
   transition: all 0.4s ease;
 }
 .button-hover-next:hover{
  background-color: #ff1e28;
- color: #fff;
+ color: white !important;
 }
 .bg-color{
   background-color: #f5f5f5;
