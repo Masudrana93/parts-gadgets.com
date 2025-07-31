@@ -18,7 +18,7 @@ var swiper = new Swiper(".mySwiper2", {
 
 //for Section-3 == Top Sales Slider
     var swiper = new Swiper(".mySwiper3", {
-      slidesPerView: 3,
+      slidesPerView: 4,
       grid: {
         rows: 2,
       },
