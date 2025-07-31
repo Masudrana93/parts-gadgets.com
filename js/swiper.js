@@ -4,6 +4,7 @@ var swiper = new Swiper(".mySwiper", {
         nextEl: ".swiper-button-next",
         prevEl: ".swiper-button-prev",
       },
+      
     });
 
 //for Section-2 == Shop by category Slider
@@ -14,6 +15,24 @@ var swiper = new Swiper(".mySwiper2", {
         nextEl: ".category-button-next2",
         prevEl: ".category-button-prev2",
       },
+      breakpoints: {
+      0: {
+        slidesPerView: 1
+      },
+      576: {
+        slidesPerView: 2,
+        spaceBetween: 15,
+      },
+      768: {
+        slidesPerView: 3,
+        spaceBetween: 20,
+      },
+      992: {
+        slidesPerView: 5,
+        spaceBetween: 25,
+      },
+      
+    }
     });
 
 //for Section-3 == Top Sales Slider
@@ -27,6 +46,24 @@ var swiper = new Swiper(".mySwiper2", {
         nextEl: ".top-sales-button-next",
         prevEl: ".top-sales-button-prev",
       },
+      breakpoints: {
+      0: {
+        slidesPerView: 1
+      },
+      576: {
+        slidesPerView: 2,
+        spaceBetween: 15,
+      },
+      768: {
+        slidesPerView: 3,
+        spaceBetween: 20,
+      },
+      992: {
+        slidesPerView: 4,
+        spaceBetween: 25,
+      },
+      
+    }
     });
 
     //for Section-4 == Car Parts Slider
@@ -37,9 +74,27 @@ var swiper = new Swiper(".mySwiper2", {
         nextEl: ".car-parts-button-next",
         prevEl: ".car-parts-button-prev",
       },
+      breakpoints: {
+      0: {
+        slidesPerView: 1
+      },
+      576: {
+        slidesPerView: 2,
+        spaceBetween: 15,
+      },
+      768: {
+        slidesPerView: 2,
+        spaceBetween: 20,
+      },
+      992: {
+        slidesPerView: 3,
+        spaceBetween: 25,
+      },
+      
+    }
     });
 
-     //for Section-4 == Car Parts Slider
+     //for Section-5 == Tractor Parts Slider
     var swiper = new Swiper(".mySwiper5", {
       slidesPerView: 3,
       spaceBetween: 30,
@@ -47,4 +102,56 @@ var swiper = new Swiper(".mySwiper2", {
         nextEl: ".tractor-parts-button-next",
         prevEl: ".tractor-parts-button-prev",
       },
+      breakpoints: {
+      0: {
+        slidesPerView: 1
+      },
+      576: {
+        slidesPerView: 2,
+        spaceBetween: 15,
+      },
+      768: {
+        slidesPerView: 2,
+        spaceBetween: 20,
+      },
+      992: {
+        slidesPerView: 3,
+        spaceBetween: 25,
+      },
+      
+    }
     });
+
+
+     //for Section-5 == Tractor Parts Slider
+    var swiper = new Swiper(".mySwiper6", {
+      slidesPerView: 3,
+      spaceBetween: 30,
+      navigation: {
+        nextEl: ".harvester-parts-button-next",
+        prevEl: ".harvester-parts-button-prev",
+      },
+      breakpoints: {
+      0: {
+        slidesPerView: 1
+      },
+      576: {
+        slidesPerView: 2,
+        spaceBetween: 15,
+      },
+      768: {
+        slidesPerView: 2,
+        spaceBetween: 20,
+      },
+      992: {
+        slidesPerView: 3,
+        spaceBetween: 25,
+      },
+      
+    }
+    });
+
+
+    
+  
+
