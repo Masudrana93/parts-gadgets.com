@@ -350,11 +350,42 @@
       justify-content: center;
       align-items: center;
     } */
+     
 
+    /* Product Card CSS Start  */
     .add-cart-btn-color{
       background: #444;
       transition: all 0.3s ease;
     }
+
+    .add-cart-btn-color button{
+      
+      transition: all 0.3s ease;
+    }
     .add-cart-btn-color button:hover {
     background-color: #ff1e28 !important;
+    }
+
+    .product-name >h5 >a{
+      transition: all 0.3s ease;
+    }
+    .product-name >h5 >a:hover{
+      color: #ff1e28 !important;
+    }
+
+    .hover-for-slide:hover .product-photo-hover a img {
+      transform: scale(1.2);
+    }
+
+  .product-photo-hover a img {
+    transition: all 0.5s ease;
+  }
+  .hover-for-slide {
+  transition: 0.3s ease;
+  transform: 0.3s ease;
+}
+
+.hover-for-slide:hover {
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.2);
+  
 }
