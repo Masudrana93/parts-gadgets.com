@@ -400,6 +400,7 @@
 
 
     .add-cart-btn-color-hover{
+      background: #444;
       transition: all 0.3s ease;
     }
 

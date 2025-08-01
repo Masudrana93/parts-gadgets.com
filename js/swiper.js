@@ -123,7 +123,7 @@ var swiper = new Swiper(".mySwiper2", {
     });
 
 
-     //for Section-5 == Tractor Parts Slider
+     //for Section-6 == Harvester Parts Slider
     var swiper = new Swiper(".mySwiper6", {
       slidesPerView: 3,
       spaceBetween: 30,
@@ -152,12 +152,45 @@ var swiper = new Swiper(".mySwiper2", {
     });
 
 
+     //for Section-7 == Motorbike Parts Slider
     var swiper = new Swiper(".mySwiper7", {
+      slidesPerView: 3,
+      spaceBetween: 30,
+      navigation: {
+        nextEl: ".motorbike-parts-button-next",
+        prevEl: ".motorbike-parts-button-prev",
+      },
+      breakpoints: {
+      0: {
+        slidesPerView: 1
+      },
+      576: {
+        slidesPerView: 2,
+        spaceBetween: 15,
+      },
+      768: {
+        slidesPerView: 2,
+        spaceBetween: 20,
+      },
+      992: {
+        slidesPerView: 3,
+        spaceBetween: 25,
+      },
+      
+    }
+    });
+
+
+    var swiper = new Swiper(".mySwiper8", {
       slidesPerView: 3,
       grid: {
         rows: 2,
       },
       spaceBetween: 30,
+      navigation: {
+        nextEl: ".deal-of-day-parts-button-next",
+        prevEl: ".deal-of-day-parts-button-prev",
+      },
       pagination: {
         el: ".swiper-pagination",
         clickable: true,
