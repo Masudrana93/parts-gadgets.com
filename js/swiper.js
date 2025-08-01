@@ -182,7 +182,7 @@ var swiper = new Swiper(".mySwiper2", {
 
 
     var swiper = new Swiper(".mySwiper8", {
-      slidesPerView: 3,
+      slidesPerView: 2,
       grid: {
         rows: 2,
       },
