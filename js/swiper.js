@@ -181,22 +181,38 @@ var swiper = new Swiper(".mySwiper2", {
     });
 
 
+    //for Section-7 == Deal of the day Slider
     var swiper = new Swiper(".mySwiper8", {
-      slidesPerView: 2,
-      grid: {
-        rows: 2,
+    slidesPerView: 2,
+    grid: {
+      rows: 2,
+      fill: 'row'
+    },
+    spaceBetween: 30,
+    navigation: {
+      nextEl: ".deal-of-day-button-next",
+      prevEl: ".deal-of-day-button-prev",
+    },
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+    },
+    loop: false, // Set to true if you want infinite loop
+    breakpoints: {
+      0: {
+        slidesPerView: 1,
+        grid: {
+          rows: 1
+        }
       },
-      spaceBetween: 30,
-      navigation: {
-        nextEl: ".deal-of-day-parts-button-next",
-        prevEl: ".deal-of-day-parts-button-prev",
-      },
-      pagination: {
-        el: ".swiper-pagination",
-        clickable: true,
-      },
-    });
-
+      768: {
+        slidesPerView: 2,
+        grid: {
+          rows: 2
+        }
+      }
+    }
+  });
 
     
   
