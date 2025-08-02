@@ -214,6 +214,15 @@ var swiper = new Swiper(".mySwiper2", {
     }
   });
 
-    
-  
+// For single page product view 
+  function changeImage(el) {
+      const mainImg = document.getElementById("mainImage");
+      mainImg.src = el.src;
+
+      // Remove active from all thumbnails
+      document.querySelectorAll(".thumbnail-image").forEach(img => img.classList.remove("active"));
+
+      // Add active to clicked thumbnail
+      el.classList.add("active");
+     }
 
