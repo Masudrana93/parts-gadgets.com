@@ -429,7 +429,7 @@
   transform: translate(-50%, -50%) scale(1);
 }
 
-/* For Product view Thumbnail pager Slider*/
+/* For Product view Thumbnail pager Slider for single page*/
  
  .thumbnail-image {
       cursor: pointer;
