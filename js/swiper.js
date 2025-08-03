@@ -214,7 +214,16 @@ var swiper = new Swiper(".mySwiper2", {
     }
   });
 
-// For single page product view 
+  //for Section- == New Product Slider
+var swiper = new Swiper(".mySwiper9", {
+      navigation: {
+        nextEl: ".new-product-swiper-button-next",
+        prevEl: ".new-product-swiper-button-prev",
+      },
+      
+    });
+
+// For*** Single Page*** product view ******
   function changeImage(el) {
       const mainImg = document.getElementById("mainImage");
       mainImg.src = el.src;
