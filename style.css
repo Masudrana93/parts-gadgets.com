@@ -453,4 +453,23 @@
       object-fit: contain;
     }
 
-  
+
+/* Featured Brand CSS  */
+.brand-logo-zoom a img:hover {
+    transform: scale(1.1);
+}
+
+.brand-logo-zoom a img{
+  transition: 0.3s ease;
+}
+
+.swiper-slide-icon {
+    height: 75px;
+    width: 75px;
+    margin-right: 18px;
+}
+
+.swiper-slide-title {
+    width: 220px;
+    
+}

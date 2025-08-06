@@ -237,7 +237,7 @@ var swiper = new Swiper(".mySwiper9", {
 
 
      //for Section-8 == Featured Brand Slider
-var swiper = new Swiper(".mySwiper8", {
+var swiper = new Swiper(".mySwiper10", {
       slidesPerView: 5,
       spaceBetween: 30,
       navigation: {
@@ -258,6 +258,31 @@ var swiper = new Swiper(".mySwiper8", {
       },
       992: {
         slidesPerView: 5,
+        spaceBetween: 25,
+      },
+      
+    }
+    });
+
+     //for Section-8 == Featured Brand Slider
+    var swiper = new Swiper(".mySwiper11", {
+      slidesPerView: 4,
+      spaceBetween: 30,
+      
+      breakpoints: {
+      0: {
+        slidesPerView: 1
+      },
+      576: {
+        slidesPerView: 2,
+        spaceBetween: 15,
+      },
+      768: {
+        slidesPerView: 3,
+        spaceBetween: 20,
+      },
+      992: {
+        slidesPerView: 4,
         spaceBetween: 25,
       },
       
