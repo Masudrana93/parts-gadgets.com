@@ -235,3 +235,31 @@ var swiper = new Swiper(".mySwiper9", {
       el.classList.add("active");
      }
 
+
+     //for Section-8 == Featured Brand Slider
+var swiper = new Swiper(".mySwiper8", {
+      slidesPerView: 5,
+      spaceBetween: 30,
+      navigation: {
+        nextEl: ".brand-button-next2",
+        prevEl: ".brand-button-prev2",
+      },
+      breakpoints: {
+      0: {
+        slidesPerView: 1
+      },
+      576: {
+        slidesPerView: 2,
+        spaceBetween: 15,
+      },
+      768: {
+        slidesPerView: 3,
+        spaceBetween: 20,
+      },
+      992: {
+        slidesPerView: 5,
+        spaceBetween: 25,
+      },
+      
+    }
+    });
