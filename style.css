@@ -463,6 +463,7 @@
   transition: 0.3s ease;
 }
 
+/* Payment Return Safety icon Slider css  */
 .swiper-slide-icon {
     height: 75px;
     width: 75px;
@@ -472,4 +473,18 @@
 .swiper-slide-title {
     width: 220px;
     
+}
+.swiper-slide-title h5 a:hover {
+    color: red !important;
+}
+.swiper-slide-title h5 a{
+  transition: 0.3s ease;
+}
+
+.swiper-slide-icon {
+  transition: border-color 0.3s ease; /* smooth transition */
+}
+
+.swiper-slide-icon:hover {
+  border-color: #dc3545 !important; 
 }
