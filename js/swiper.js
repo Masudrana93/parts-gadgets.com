@@ -224,7 +224,8 @@ var swiper = new Swiper(".mySwiper9", {
     });
 
 // For*** Single Page*** product view ******
-  function changeImage(el) {
+  
+    function changeImage(el) {
       const mainImg = document.getElementById("mainImage");
       mainImg.src = el.src;
 
@@ -236,8 +237,8 @@ var swiper = new Swiper(".mySwiper9", {
      }
 
 
-     //for Section-8 == Featured Brand Slider
-var swiper = new Swiper(".mySwiper10", {
+//for Section-8 == Featured Brand Slider
+      var swiper = new Swiper(".mySwiper10", {
       slidesPerView: 5,
       spaceBetween: 30,
       navigation: {

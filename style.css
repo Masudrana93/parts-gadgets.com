@@ -439,7 +439,7 @@
  
  .thumbnail-image {
       cursor: pointer;
-      border: 2px solid transparent;
+      border: 1px solid lightgrey;
       padding: 5px;
     }
 
@@ -447,11 +447,21 @@
       border-color: red;
     }
 
-    .main-image {
-      max-width: 100%;
+.main-image {
       max-height: 400px;
       object-fit: contain;
-    }
+}
+
+/*---- for copy-singlepage  test-----*/
+
+/* .thumb-img:hover{
+  border-color: #cc0000 !important;
+  cursor: pointer;
+}
+
+.thumb-img{
+  transition: 0.3s ease;
+} */
 
 
 /* Featured Brand CSS  */
@@ -471,7 +481,7 @@
 }
 
 .swiper-slide-title {
-    width: 220px;
+    width: 170px;
     
 }
 .swiper-slide-title h5 a:hover {
