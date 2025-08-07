@@ -248,9 +248,10 @@
 
                     <!-- Action Buttons: Add to Cart, Buy Now, Share -->
                     <div class="mt-4 d-flex gap-3 flex-wrap">
-                        <button class="btn btn-warning flex-grow-1 rounded-0">⚡ Buy Now</button>
-                        <button class="btn btn-primary flex-grow-1 rounded-0">🛒 Add to Cart</button>
-                        <button class="btn btn-outline-secondary rounded-0" onclick="shareProduct()"> <i class="bi bi-share"></i> </button>
+                        <button class="btn btn-warning  rounded-0">⚡ Buy Now</button>
+                        <button class="btn btn-primary  rounded-0">🛒 Add to Cart</button>
+                        <button class="btn btn-outline-secondary rounded-0" onclick="shareProduct()"> <i
+                                class="bi bi-share"></i> </button>
                     </div>
                 </div>
                 <!-- Product information end  -->
@@ -261,9 +262,98 @@
     <!-- product photos slider and views details end -->
 
 
+    <!--Product details Bootstrap Tabs and Accordion Hybrid  Start-->
+    <section>
+        <!-- Product Tabs Section Start -->
+        <div class="container my-5">
+            <ul class="nav nav-tabs w-100 d-flex" id="productTab" role="tablist">
+                <li class="nav-item flex-fill text-center" role="presentation">
+                    <button class="nav-link active w-100" id="desc-tab" data-bs-toggle="tab" data-bs-target="#desc"
+                        type="button" role="tab">Description</button>
+                </li>
+                <li class="nav-item flex-fill text-center" role="presentation">
+                    <button class="nav-link w-100" id="reviews-tab" data-bs-toggle="tab" data-bs-target="#reviews"
+                        type="button" role="tab">Reviews (0)</button>
+                </li>
+                <li class="nav-item flex-fill text-center" role="presentation">
+                    <button class="nav-link w-100" id="specs-tab" data-bs-toggle="tab" data-bs-target="#specs"
+                        type="button" role="tab">Specifications</button>
+                </li>
+            </ul>
 
+            <div class="tab-content border border-top-0 p-4" id="productTabContent">
+                <!-- Description Tab -->
+                <div class="tab-pane fade show active" id="desc" role="tabpanel">
+                    <h5>Product Details</h5>
+                    <p><strong>Brand:</strong> BP</p>
+                    <p><strong>Product Name:</strong> BP Visco 5000 5W-40 Engine Oil</p>
+                    <p><strong>Weight:</strong> 4 Ltrs</p>
+                    <p><strong>Oil Weight:</strong> 5W-40</p>
+                    <p><strong>Container Type:</strong> Plastic Bottle</p>
+                    <p><strong>Color:</strong> Varies depending on the specification</p>
+                    <p><strong>Physical State:</strong> Liquid</p>
+                    <p><strong>Odor:</strong> Petroleum odor</p>
+                    <p><strong>High Mileage Formula:</strong> Yes</p>
+                    <p><strong>Oil Composition:</strong> Premium Quality Multi-Grade Engine Oil</p>
+                    <p><strong>Oil Type:</strong> Gasoline Engine Oil</p>
+                    <p><strong>SAE Oil Weight:</strong> 5W-40</p>
+                    <p><strong>ACEA:</strong> A3/B4</p>
+                    <p><strong>Standards:</strong> API Service Categories: API SN</p>
+                    <p><strong>Shipping Information:</strong> Self-catering – Dhaka</p>
+                </div>
 
+                <!-- Reviews Tab -->
+                <div class="tab-pane fade" id="reviews" role="tabpanel">
+                    <p>There is no reviews yet.</p>
+                    <div class="card my-4 p-4 shadow-sm">
+                        <h5>Be the first to review <strong>BP Visco 5000 5W-40 Engine Oil – 4Ltr Full Synthetic</strong>
+                        </h5>
+                        <form>
+                            <div class="mb-3">
+                                <label for="rating" class="form-label">Your rating *</label>
+                                <div>
+                                    <span class="fa fa-star-o"></span>
+                                    <span class="fa fa-star-o"></span>
+                                    <span class="fa fa-star-o"></span>
+                                    <span class="fa fa-star-o"></span>
+                                    <span class="fa fa-star-o"></span>
+                                </div>
+                            </div>
+                            <div class="mb-3">
+                                <label for="review" class="form-label">Your review *</label>
+                                <textarea class="form-control" id="review" rows="4" required></textarea>
+                            </div>
+                            <div class="row g-3">
+                                <div class="col-md-6">
+                                    <label for="name" class="form-label">Name *</label>
+                                    <input type="text" class="form-control" id="name" required>
+                                </div>
+                                <div class="col-md-6">
+                                    <label for="email" class="form-label">Email *</label>
+                                    <input type="email" class="form-control" id="email" required>
+                                </div>
+                            </div>
+                            <div class="form-check my-3">
+                                <input type="checkbox" class="form-check-input" id="saveInfo">
+                                <label class="form-check-label" for="saveInfo">Save my name, email, and website in this
+                                    browser for the next time I comment.</label>
+                            </div>
+                            <button type="submit" class="btn btn-warning rounded-0 px-4">Submit</button>
+                        </form>
+                    </div>
 
+                </div>
+
+                <!-- Specifications Tab -->
+                <div class="tab-pane fade" id="specs" role="tabpanel">
+                    <p>Coming soon or add specification details here.</p>
+                </div>
+            </div>
+        </div>
+        <!-- Product Tabs Section End -->
+
+    </section>
+    <!--Product details Bootstrap Tabs and Accordion Hybrid End-->
 
 
 

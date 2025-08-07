@@ -507,3 +507,12 @@
 .brand-name-hover a{
   transition: 0.3s ease;
 }
+/* reviews part star  */
+.fa-star-o {
+  color: #ff9800;
+  font-size: 20px;
+  cursor: pointer;
+}
+.fa-star {
+  color: #ff9800;
+}
