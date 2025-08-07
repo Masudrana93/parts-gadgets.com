@@ -159,7 +159,7 @@
     <section>
         <div class="container my-5">
             <div class="row">
-                <p>I have create this design myslef</p>
+                <!-- Photo view part start  -->
                 <div class="col-md-6">
                     <!-- Main Image Preview -->
                     <div class="text-center mb-3 border border-secondary-subtle">
@@ -178,14 +178,82 @@
                             <img src="images/cats.jpg" class="img-fluid thumbnail-image" onclick="changeImage(this)">
                         </div>
                         <div class="col-3 col-sm-2">
-                            <img src="images/cycle.jpg" class="img-fluid thumbnail-image active" onclick="changeImage(this)">
+                            <img src="images/cycle.jpg" class="img-fluid thumbnail-image active"
+                                onclick="changeImage(this)">
                         </div>
                         <div class="col-3 col-sm-2">
                             <img src="images/cats-2.jpg" class="img-fluid thumbnail-image" onclick="changeImage(this)">
                         </div>
-                        
+
                     </div>
                 </div>
+                <!-- Photo view part end  -->
+
+                <!-- Product information start  -->
+                <div class="col-md-6">
+                    <p class="brand-name-hover"><a href="#" class="text-decoration-none text-secondary">TOYOTA</a></p>
+                    <h3 class="fw-bold mb-md-3 mb-2">T-Shirt</h3>
+                    <!-- Star Rating and reviews -->
+                    <div class="review-star mb-md-3 mb-2">
+                        <span class="mb-2 me-2">
+                            <i class="bi bi-star-fill text-warning"></i>
+                            <i class="bi bi-star-fill text-warning"></i>
+                            <i class="bi bi-star-fill text-warning"></i>
+                            <i class="bi bi-star-fill text-warning"></i>
+                            <i class="bi bi-star-fill text-secondary"></i>
+                        </span>
+                        <span class="me-2"><a href="#" class="text-decoration-none text-secondary">[ 2 reviews
+                                ]</a></span>
+                        <span><a href="#" class="text-decoration-none text-secondary">Write a review</a></span>
+                    </div>
+                    <!-- producr price  -->
+                    <h3 class="fw-bold text-danger">$120</h3>
+
+                    <!-- Color Selection -->
+                    <div class="mb-3 mt-4">
+                        <label class="form-label fw-semibold">Color:</label>
+                        <div class="d-flex gap-2">
+                            <button class="btn border rounded-2 p-2" style="background-color: red;"
+                                title="Red"></button>
+                            <button class="btn border rounded-2 p-2" style="background-color: blue;"
+                                title="Blue"></button>
+                            <button class="btn border rounded-2 p-2" style="background-color: black;"
+                                title="Black"></button>
+                        </div>
+                    </div>
+
+                    <!-- Size Selection -->
+                    <div class="mb-3">
+                        <label class="form-label fw-semibold">Size:</label>
+                        <div class="d-flex gap-2">
+                            <button class="btn btn-outline-secondary btn-sm">S</button>
+                            <button class="btn btn-outline-secondary btn-sm">M</button>
+                            <button class="btn btn-outline-secondary btn-sm">L</button>
+                            <button class="btn btn-outline-secondary btn-sm">XL</button>
+                        </div>
+                    </div>
+
+                    <!-- Quantity Selection -->
+                    <div class="mb-4">
+                        <label class="form-label fw-semibold">Quantity:</label>
+                        <div class="input-group" style="max-width: 150px;">
+                            <button class="btn btn-outline-secondary btn-sm" type="button"
+                                onclick="decreaseQty()">-</button>
+                            <input type="number" id="qtyInput" class="form-control form-control-sm text-center"
+                                value="1" min="1">
+                            <button class="btn btn-outline-secondary btn-sm" type="button"
+                                onclick="increaseQty()">+</button>
+                        </div>
+                    </div>
+
+                    <!-- Action Buttons: Add to Cart, Buy Now, Share -->
+                    <div class="mt-4 d-flex gap-3 flex-wrap">
+                        <button class="btn btn-warning flex-grow-1 rounded-0">⚡ Buy Now</button>
+                        <button class="btn btn-primary flex-grow-1 rounded-0">🛒 Add to Cart</button>
+                        <button class="btn btn-outline-secondary rounded-0" onclick="shareProduct()"> <i class="bi bi-share"></i> </button>
+                    </div>
+                </div>
+                <!-- Product information end  -->
             </div>
 
         </div>

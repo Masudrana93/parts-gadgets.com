@@ -223,19 +223,6 @@ var swiper = new Swiper(".mySwiper9", {
       
     });
 
-// For*** Single Page*** product view ******
-  
-    function changeImage(el) {
-      const mainImg = document.getElementById("mainImage");
-      mainImg.src = el.src;
-
-      // Remove active from all thumbnails
-      document.querySelectorAll(".thumbnail-image").forEach(img => img.classList.remove("active"));
-
-      // Add active to clicked thumbnail
-      el.classList.add("active");
-     }
-
 
 //for Section-8 == Featured Brand Slider
       var swiper = new Swiper(".mySwiper10", {
@@ -289,3 +276,32 @@ var swiper = new Swiper(".mySwiper9", {
       
     }
     });
+
+//****** For Single Page *********
+  
+    // -----Product View ----
+    function changeImage(el) {
+      const mainImg = document.getElementById("mainImage");
+      mainImg.src = el.src;
+
+      // Remove active from all thumbnails
+      document.querySelectorAll(".thumbnail-image").forEach(img => img.classList.remove("active"));
+
+      // Add active to clicked thumbnail
+      el.classList.add("active");
+     }
+
+  // ---For Quantity Selection ----
+     function increaseQty() {
+        const input = document.getElementById('qtyInput');
+        input.value = parseInt(input.value) + 1;
+      }
+
+    function decreaseQty() {
+        const input = document.getElementById('qtyInput');
+        if (parseInt(input.value) > 1) {
+            input.value = parseInt(input.value) - 1;
+        }
+      }
+
+

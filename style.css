@@ -435,22 +435,6 @@
   transform: translate(-50%, -50%) scale(1);
 }
 
-/* For Product view Thumbnail pager Slider for single page*/
- 
- .thumbnail-image {
-      cursor: pointer;
-      border: 1px solid lightgrey;
-      padding: 5px;
-    }
-
-    .thumbnail-image.active {
-      border-color: red;
-    }
-
-.main-image {
-      max-height: 400px;
-      object-fit: contain;
-}
 
 /*---- for copy-singlepage  test-----*/
 
@@ -497,4 +481,29 @@
 
 .swiper-slide-icon:hover {
   border-color: #dc3545 !important; 
+}
+
+/* For Product view Thumbnail pager Slider for single page*/
+ 
+ .thumbnail-image {
+      cursor: pointer;
+      border: 1px solid lightgrey;
+      padding: 5px;
+    }
+
+    .thumbnail-image.active {
+      border-color: red;
+    }
+
+.main-image {
+      max-height: 400px;
+      object-fit: contain;
+}
+
+/*For Product information  */
+.brand-name-hover a:hover{
+  color: #cc0000 !important;
+}
+.brand-name-hover a{
+  transition: 0.3s ease;
 }
