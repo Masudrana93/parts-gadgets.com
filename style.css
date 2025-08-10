@@ -12,6 +12,7 @@ body {
   font-size: 14px;           /* ডিফল্ট সাইজ */
   /* line-height: 1.5;          পড়তে সুবিধা হয় */
   color: #282828;
+  background-color: #eee;
 }
 
 /* =========================
@@ -27,6 +28,12 @@ p{
 }
 a{
   color: #282828;
+}
+.block-title{
+  font-weight: 700;
+}
+.figcaption-title{
+  font-size: 14px;
 }
 /* h2 {
   font-size: 28px;
@@ -352,7 +359,7 @@ select.form-select {
     .swiper-slide img {
       display: block;
       width: 100%;
-      height: 100%;
+      /* height: 100%; */
       object-fit: cover;
     }
 /*---- Section-1 == Swiper Slider CSS End ---*/
@@ -381,16 +388,18 @@ select.form-select {
 .bg-color-slider-none{
   background: none;
 }
-.cat-name-hover>h5>a:hover{
+.cat-name-hover>h6>a:hover{
   background-color: red;
   color: white !important;
 } 
-.cat-name-hover>h5>a{
+.cat-name-hover>h6>a{
   transition: all 0.3s ease;
-  font-size: 16px;
-  font-weight: 600;
+  font-weight: 500;
 }
 
+.bg-color-red{
+  background-color: #ff1e28;
+}
 
     /* Product Card CSS Start  */
     .add-cart-btn-color{
@@ -564,9 +573,12 @@ select.form-select {
 /* reviews part star  */
 .fa-star-o {
   color: #ff9800;
-  font-size: 20px;
+  font-size: 13px;
   cursor: pointer;
 }
 .fa-star {
   color: #ff9800;
+}
+.star-font-size{
+  font-size: 13px;
 }
