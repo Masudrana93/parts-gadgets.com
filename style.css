@@ -3,6 +3,16 @@
   margin: 0;
   box-sizing: border-box;
 }
+ /* For Google fonts */
+body {
+      font-family: 'Rubik', sans-serif;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      font-weight: 700; /* Bold for headings */
+    }
+    p {
+      font-weight: 400;
+    }
 
 
 /* -------Header CSS Start ------ */
