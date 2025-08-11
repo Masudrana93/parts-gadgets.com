@@ -35,6 +35,13 @@ a{
 .figcaption-title{
   font-size: 14px;
 }
+.product-model-font-size{
+  font-size: 14px;
+}
+
+.fs-14{
+  font-size: 14px;
+}
 /* h2 {
   font-size: 28px;
   font-weight: 500;
@@ -236,7 +243,7 @@ select.form-select {
     background-color:#000 ;
 }
 
-/* Responsive */
+/* *********Responsive start**********/
 @media (max-width: 992px) {
   .search-container {
     display: none;
@@ -250,6 +257,12 @@ select.form-select {
     border-top: 1px solid #686868;
   }
 }
+@media (max-width: 767px) {
+.swiper-slide img {
+      height: auto;
+    }
+  }
+/* *********Responsive end**********/
 
 /* -------Header CSS End ------ */
 
@@ -359,8 +372,11 @@ select.form-select {
     .swiper-slide img {
       display: block;
       width: 100%;
-      /* height: 100%; */
+      height: 100%;
       object-fit: cover;
+    }
+    .new-pro-img-height img{
+      height: auto !important;
     }
 /*---- Section-1 == Swiper Slider CSS End ---*/
 
@@ -415,10 +431,10 @@ select.form-select {
     background-color: #ff1e28 !important;
     }
 
-    .product-name >h5 >a{
+    .product-name >h6 >a{
       transition: all 0.3s ease;
     }
-    .product-name >h5 >a:hover{
+    .product-name >h6 >a:hover{
       color: #ff1e28 !important;
     }
 
@@ -457,12 +473,12 @@ select.form-select {
 
 
 .swiper-slide.deal-of-day {
-  background-color: #f9f9f9;
+  /* background-color: #f9f9f9; */
   height: auto;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  border: 1px solid #ddd;
+  /* border: 1px solid #ddd; */
   padding: 10px;
 }
 
@@ -500,6 +516,9 @@ select.form-select {
 
 
 /*---- for copy-singlepage  test-----*/
+
+/* Make it slightly smaller on very small screens */
+
 
 /* .thumb-img:hover{
   border-color: #cc0000 !important;
