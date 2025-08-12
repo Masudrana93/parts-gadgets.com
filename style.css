@@ -262,6 +262,16 @@ select.form-select {
       height: auto;
     }
   }
+
+  /* Responsive font size */
+@media (max-width: 576px) {
+  .discount-ribbon {
+    font-size: 12px;
+    padding: 6px 35px;
+    top: 10px;
+    left: -26px;
+  }
+}
 /* *********Responsive end**********/
 
 /* -------Header CSS End ------ */
@@ -601,3 +611,26 @@ select.form-select {
 .star-font-size{
   font-size: 13px;
 }
+
+
+/* Discount Ribbon */
+.discount-ribbon {
+  position: absolute;
+  top: 7px;
+  left: -30px;
+  background: #dc3545; /* Bootstrap danger color */
+  color: #fff;
+  padding: 5px 35px;
+  font-size: 14px;
+  font-weight: bold;
+  transform: rotate(-45deg);
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+  z-index: 10;
+}
+
+.discount-ribbon span {
+  display: block;
+  text-align: center;
+}
+
+
