@@ -403,6 +403,7 @@ select.form-select {
   align-items: center;
   justify-content: center;
   flex-direction: row;
+  background-color: white;
 }
 .button-hover-next:hover{
  background-color: #ff1e28;
@@ -480,6 +481,7 @@ select.form-select {
       margin-left: auto;
       margin-right: auto;
     }
+
 
 
 .swiper-slide.deal-of-day {
