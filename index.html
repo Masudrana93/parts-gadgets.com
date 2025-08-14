@@ -178,7 +178,7 @@
   </section>
   <!-- -----Section-1 == Swiper Slider End-----  -->
 
-  <!-- -----Section- == Payment and Return slider == Swiper Slider Start-----  -->
+  <!-- -----Section-2 == Payment and Return slider == Swiper Slider Start-----  -->
   <section class="mt-5">
     <div class="container">
       <!-- Main Slider -->
@@ -266,10 +266,10 @@
       </div>
     </div>
   </section>
-  <!-- -----Section- == Payment and Return slider == Swiper Slider End-----  -->
+  <!-- -----Section-2 == Payment and Return slider == Swiper Slider End-----  -->
 
-  <!-- -----Section-2 == Shop by Categories== Swiper Slider Start-----  -->
-  <div class="container-fluid mt-5">
+  <!-- -----Section-3 == Shop by Categories== Swiper Slider Start-----  -->
+   <section class="mt-md-4 mt-2">
     <div class="container">
       <!-- Slider Heading -->
       <div class="row">
@@ -374,17 +374,15 @@
         </div>
       </div>
     </div>
-  </div>
-  <!-- -----Section-2 == Shop by Categories== Swiper Slider End-----  -->
+  </section>
+  <!-- -----Section-3 == Shop by Categories== Swiper Slider End-----  -->
 
 
-  <!-- -----Section-3 == Deal of the day and New Product == Swiper Slider Start-----  -->
-
-  <div class="container-fluid my-3">
+  <!-- -----Section-4 == Deal of the day and New Product == Swiper Slider Start-----  -->
+<section class="mt-md-4 mt-2">
     <div class="container">
-
-      <!--------- New Product Start---------- -->
       <div class="row justify-content-between">
+        <!--------- New Product Start---------- -->
         <div class="col-md-3 col-12 pe-md-5">
           <!-- Slider Heading -->
           <div class="row">
@@ -764,7 +762,6 @@
                   </div>
                   <!-- per-item end  -->
 
-
                   <!-- per-item start  -->
                   <div class="swiper-slide deal-of-day bg-color-slider-none">
                     <div class="row justify-content-between border hover-for-slide g-0">
@@ -816,7 +813,6 @@
                   </div>
                   <!-- per-item end  -->
 
-
                   <!-- per-item start  -->
                   <div class="swiper-slide deal-of-day bg-color-slider-none">
                     <div class="row justify-content-between border hover-for-slide g-0">
@@ -867,10 +863,6 @@
                     </div>
                   </div>
                   <!-- per-item end  -->
-
-
-
-
                 </div>
               </div>
               <!-- Swiper End-->
@@ -882,8 +874,8 @@
 
 
     </div>
-  </div>
-  <!-- -----Section-3 == Deal of the day and New Product == Swiper Slider End-----  -->
+  </section>
+  <!-- -----Section-4 == Deal of the day and New Product == Swiper Slider End-----  -->
 
   <!-- -----Section-3 == Top Sales == Swiper Slider Start-----  -->
 
@@ -893,7 +885,7 @@
       <div class="row">
         <div class="col-12 d-flex justify-content-between py-3">
           <div class="h">
-            <h4><i class="fa-solid fa-angles-right text-danger"></i> TOP SALES</h4>
+            <h4 class="block-title mb-0"><i class="fa-solid fa-angles-right text-danger"></i> TOP SALES</h4>
           </div>
           <div class="d-flex">
             <button class="btn top-sales-button-prev button-hover-prev border rounded-0 text-danger me-1"><i
@@ -912,13 +904,15 @@
             <div class="swiper-wrapper">
 
               <!-- per-item start  -->
-              <div
-                class="swiper-slide hover-for-slide d-flex flex-column bg-color-slider-none position-relative border">
+              <div class="swiper-slide hover-for-slide d-flex flex-column bg-color-slider-none position-relative border">
 
                 <!-- Product photo  -->
-                <div class="product-photo-hover overflow-hidden border-bottom">
+                <div class="product-photo-hover overflow-hidden border-bottom w-100 position-relative">
                   <a href="single.html"><img src="images/c1.jpg" class="img-fluid" alt="Slider Photo"></a>
-
+                  <!-- Discount Ribbon -->
+                        <div class="discount-ribbon">
+                          <span>-20%</span>
+                        </div>
                 </div>
 
                 <!-- Add to cart button  -->
@@ -930,36 +924,39 @@
                   <button class="btn border-start rounded-0"><a href="#" class="text-decoration-none text-white"><i
                         class="bi bi-heart"></i></a></button>
                 </div>
+                
                 <!-- Product name  -->
-                <div class="product-name mt-3 mb-2">
-                  <h5><a href="single.html" class="text-decoration-none bg-color">Appollo Tyre 16x28</a></h5>
-                  <small>Model: Toyota | X Corola</small>
-                </div>
-                <!-- Star Rating  -->
-                <span class="mb-2">
-                  <i class="bi bi-star-fill text-warning"></i>
-                  <i class="bi bi-star-fill text-warning"></i>
-                  <i class="bi bi-star-fill text-warning"></i>
-                  <i class="bi bi-star-fill text-warning"></i>
-                  <i class="bi bi-star-fill text-secondary"></i>
-                </span>
-                <!-- Porduct price  -->
-                <span class="fw-bold mb-3">$40.00</span>
-                <!-- Discount percentage -->
-                <div class="position-absolute start-0 top-0 bg-danger text-white py-2 px-2">
-                  <small>-20%</small>
-                </div>
+                        <div class="product-name mt-md-4 mt-2 mb-2">
+                          <h6 class=""><a href="single.html" class="text-decoration-none">Appollo Tyre 16x28</a>
+                          </h6>
+                          <small class="text-secondary product-model-font-size">Model: Toyota | X Corola</small>
+                        </div>
+                        <!-- Star Rating  -->
+                        <div class="d-flex flex-column">
+                          <span class="mb-2">
+                            <i class="bi bi-star-fill text-warning star-font-size"></i>
+                            <i class="bi bi-star-fill text-warning star-font-size"></i>
+                            <i class="bi bi-star-fill text-warning star-font-size"></i>
+                            <i class="bi bi-star-fill text-warning star-font-size"></i>
+                            <i class="bi bi-star-fill text-secondary star-font-size"></i>
+                          </span>
+                          <!-- Porduct price  -->
+                          <span class="fw-bold mb-3 text-danger fs-6">$40.00</span>
+                        </div>
+                
               </div>
               <!-- per-item end  -->
 
               <!-- per-item start  -->
-              <div
-                class="swiper-slide hover-for-slide d-flex flex-column bg-color-slider-none position-relative border">
+              <div class="swiper-slide hover-for-slide d-flex flex-column bg-color-slider-none position-relative border">
 
                 <!-- Product photo  -->
-                <div class="product-photo-hover overflow-hidden">
+                <div class="product-photo-hover overflow-hidden border-bottom w-100 position-relative">
                   <a href="single.html"><img src="images/c1.jpg" class="img-fluid" alt="Slider Photo"></a>
-
+                  <!-- Discount Ribbon -->
+                        <div class="discount-ribbon">
+                          <span>-20%</span>
+                        </div>
                 </div>
 
                 <!-- Add to cart button  -->
@@ -971,36 +968,39 @@
                   <button class="btn border-start rounded-0"><a href="#" class="text-decoration-none text-white"><i
                         class="bi bi-heart"></i></a></button>
                 </div>
+                
                 <!-- Product name  -->
-                <div class="product-name mt-3 mb-2">
-                  <h5><a href="single.html" class="text-decoration-none bg-color">Appollo Tyre 16x28</a></h5>
-                  <small>Model: Toyota | X Corola</small>
-                </div>
-                <!-- Star Rating  -->
-                <span class="mb-2">
-                  <i class="bi bi-star-fill text-warning"></i>
-                  <i class="bi bi-star-fill text-warning"></i>
-                  <i class="bi bi-star-fill text-warning"></i>
-                  <i class="bi bi-star-fill text-warning"></i>
-                  <i class="bi bi-star-fill text-secondary"></i>
-                </span>
-                <!-- Porduct price  -->
-                <span class="fw-bold mb-3">$40.00</span>
-                <!-- Discount percentage -->
-                <div class="position-absolute start-0 top-0 bg-danger text-white py-2 px-2">
-                  <small>-20%</small>
-                </div>
+                        <div class="product-name mt-md-4 mt-2 mb-2">
+                          <h6 class=""><a href="single.html" class="text-decoration-none">Appollo Tyre 16x28</a>
+                          </h6>
+                          <small class="text-secondary product-model-font-size">Model: Toyota | X Corola</small>
+                        </div>
+                        <!-- Star Rating  -->
+                        <div class="d-flex flex-column">
+                          <span class="mb-2">
+                            <i class="bi bi-star-fill text-warning star-font-size"></i>
+                            <i class="bi bi-star-fill text-warning star-font-size"></i>
+                            <i class="bi bi-star-fill text-warning star-font-size"></i>
+                            <i class="bi bi-star-fill text-warning star-font-size"></i>
+                            <i class="bi bi-star-fill text-secondary star-font-size"></i>
+                          </span>
+                          <!-- Porduct price  -->
+                          <span class="fw-bold mb-3 text-danger fs-6">$40.00</span>
+                        </div>
+                
               </div>
               <!-- per-item end  -->
 
               <!-- per-item start  -->
-              <div
-                class="swiper-slide hover-for-slide d-flex flex-column bg-color-slider-none position-relative border">
+              <div class="swiper-slide hover-for-slide d-flex flex-column bg-color-slider-none position-relative border">
 
                 <!-- Product photo  -->
-                <div class="product-photo-hover overflow-hidden">
+                <div class="product-photo-hover overflow-hidden border-bottom w-100 position-relative">
                   <a href="single.html"><img src="images/c1.jpg" class="img-fluid" alt="Slider Photo"></a>
-
+                  <!-- Discount Ribbon -->
+                        <div class="discount-ribbon">
+                          <span>-20%</span>
+                        </div>
                 </div>
 
                 <!-- Add to cart button  -->
@@ -1012,36 +1012,39 @@
                   <button class="btn border-start rounded-0"><a href="#" class="text-decoration-none text-white"><i
                         class="bi bi-heart"></i></a></button>
                 </div>
+                
                 <!-- Product name  -->
-                <div class="product-name mt-3 mb-2">
-                  <h5><a href="single.html" class="text-decoration-none bg-color">Appollo Tyre 16x28</a></h5>
-                  <small>Model: Toyota | X Corola</small>
-                </div>
-                <!-- Star Rating  -->
-                <span class="mb-2">
-                  <i class="bi bi-star-fill text-warning"></i>
-                  <i class="bi bi-star-fill text-warning"></i>
-                  <i class="bi bi-star-fill text-warning"></i>
-                  <i class="bi bi-star-fill text-warning"></i>
-                  <i class="bi bi-star-fill text-secondary"></i>
-                </span>
-                <!-- Porduct price  -->
-                <span class="fw-bold mb-3">$40.00</span>
-                <!-- Discount percentage -->
-                <div class="position-absolute start-0 top-0 bg-danger text-white py-2 px-2">
-                  <small>-20%</small>
-                </div>
+                        <div class="product-name mt-md-4 mt-2 mb-2">
+                          <h6 class=""><a href="single.html" class="text-decoration-none">Appollo Tyre 16x28</a>
+                          </h6>
+                          <small class="text-secondary product-model-font-size">Model: Toyota | X Corola</small>
+                        </div>
+                        <!-- Star Rating  -->
+                        <div class="d-flex flex-column">
+                          <span class="mb-2">
+                            <i class="bi bi-star-fill text-warning star-font-size"></i>
+                            <i class="bi bi-star-fill text-warning star-font-size"></i>
+                            <i class="bi bi-star-fill text-warning star-font-size"></i>
+                            <i class="bi bi-star-fill text-warning star-font-size"></i>
+                            <i class="bi bi-star-fill text-secondary star-font-size"></i>
+                          </span>
+                          <!-- Porduct price  -->
+                          <span class="fw-bold mb-3 text-danger fs-6">$40.00</span>
+                        </div>
+                
               </div>
               <!-- per-item end  -->
 
               <!-- per-item start  -->
-              <div
-                class="swiper-slide hover-for-slide d-flex flex-column bg-color-slider-none position-relative border">
+              <div class="swiper-slide hover-for-slide d-flex flex-column bg-color-slider-none position-relative border">
 
                 <!-- Product photo  -->
-                <div class="product-photo-hover overflow-hidden">
+                <div class="product-photo-hover overflow-hidden border-bottom w-100 position-relative">
                   <a href="single.html"><img src="images/c1.jpg" class="img-fluid" alt="Slider Photo"></a>
-
+                  <!-- Discount Ribbon -->
+                        <div class="discount-ribbon">
+                          <span>-20%</span>
+                        </div>
                 </div>
 
                 <!-- Add to cart button  -->
@@ -1053,25 +1056,114 @@
                   <button class="btn border-start rounded-0"><a href="#" class="text-decoration-none text-white"><i
                         class="bi bi-heart"></i></a></button>
                 </div>
+                
                 <!-- Product name  -->
-                <div class="product-name mt-3 mb-2">
-                  <h5><a href="single.html" class="text-decoration-none bg-color">Appollo Tyre 16x28</a></h5>
-                  <small>Model: Toyota | X Corola</small>
+                        <div class="product-name mt-md-4 mt-2 mb-2">
+                          <h6 class=""><a href="single.html" class="text-decoration-none">Appollo Tyre 16x28</a>
+                          </h6>
+                          <small class="text-secondary product-model-font-size">Model: Toyota | X Corola</small>
+                        </div>
+                        <!-- Star Rating  -->
+                        <div class="d-flex flex-column">
+                          <span class="mb-2">
+                            <i class="bi bi-star-fill text-warning star-font-size"></i>
+                            <i class="bi bi-star-fill text-warning star-font-size"></i>
+                            <i class="bi bi-star-fill text-warning star-font-size"></i>
+                            <i class="bi bi-star-fill text-warning star-font-size"></i>
+                            <i class="bi bi-star-fill text-secondary star-font-size"></i>
+                          </span>
+                          <!-- Porduct price  -->
+                          <span class="fw-bold mb-3 text-danger fs-6">$40.00</span>
+                        </div>
+                
+              </div>
+              <!-- per-item end  -->
+
+              <!-- per-item start  -->
+              <div class="swiper-slide hover-for-slide d-flex flex-column bg-color-slider-none position-relative border">
+
+                <!-- Product photo  -->
+                <div class="product-photo-hover overflow-hidden border-bottom w-100 position-relative">
+                  <a href="single.html"><img src="images/c1.jpg" class="img-fluid" alt="Slider Photo"></a>
+                  <!-- Discount Ribbon -->
+                        <div class="discount-ribbon">
+                          <span>-20%</span>
+                        </div>
                 </div>
-                <!-- Star Rating  -->
-                <span class="mb-2">
-                  <i class="bi bi-star-fill text-warning"></i>
-                  <i class="bi bi-star-fill text-warning"></i>
-                  <i class="bi bi-star-fill text-warning"></i>
-                  <i class="bi bi-star-fill text-warning"></i>
-                  <i class="bi bi-star-fill text-secondary"></i>
-                </span>
-                <!-- Porduct price  -->
-                <span class="fw-bold mb-3">$40.00</span>
-                <!-- Discount percentage -->
-                <div class="position-absolute start-0 top-0 bg-danger text-white py-2 px-2">
-                  <small>-20%</small>
+
+                <!-- Add to cart button  -->
+                <div class="add-cart-btn-color w-100 d-flex justify-content-between">
+                  <button class="btn border-end rounded-0 "> <a href="#" class="text-decoration-none text-white"> <i
+                        class="bi bi-search"></i> </a> </button>
+                  <button class="btn rounded-0  w-100"> <a href="#" class="text-decoration-none text-white"> ADD TO CART
+                    </a> </button>
+                  <button class="btn border-start rounded-0"><a href="#" class="text-decoration-none text-white"><i
+                        class="bi bi-heart"></i></a></button>
                 </div>
+                
+                <!-- Product name  -->
+                        <div class="product-name mt-md-4 mt-2 mb-2">
+                          <h6 class=""><a href="single.html" class="text-decoration-none">Appollo Tyre 16x28</a>
+                          </h6>
+                          <small class="text-secondary product-model-font-size">Model: Toyota | X Corola</small>
+                        </div>
+                        <!-- Star Rating  -->
+                        <div class="d-flex flex-column">
+                          <span class="mb-2">
+                            <i class="bi bi-star-fill text-warning star-font-size"></i>
+                            <i class="bi bi-star-fill text-warning star-font-size"></i>
+                            <i class="bi bi-star-fill text-warning star-font-size"></i>
+                            <i class="bi bi-star-fill text-warning star-font-size"></i>
+                            <i class="bi bi-star-fill text-secondary star-font-size"></i>
+                          </span>
+                          <!-- Porduct price  -->
+                          <span class="fw-bold mb-3 text-danger fs-6">$40.00</span>
+                        </div>
+                
+              </div>
+              <!-- per-item end  -->
+
+              <!-- per-item start  -->
+              <div class="swiper-slide hover-for-slide d-flex flex-column bg-color-slider-none position-relative border">
+
+                <!-- Product photo  -->
+                <div class="product-photo-hover overflow-hidden border-bottom w-100 position-relative">
+                  <a href="single.html"><img src="images/c1.jpg" class="img-fluid" alt="Slider Photo"></a>
+                  <!-- Discount Ribbon -->
+                        <div class="discount-ribbon">
+                          <span>-20%</span>
+                        </div>
+                </div>
+
+                <!-- Add to cart button  -->
+                <div class="add-cart-btn-color w-100 d-flex justify-content-between">
+                  <button class="btn border-end rounded-0 "> <a href="#" class="text-decoration-none text-white"> <i
+                        class="bi bi-search"></i> </a> </button>
+                  <button class="btn rounded-0  w-100"> <a href="#" class="text-decoration-none text-white"> ADD TO CART
+                    </a> </button>
+                  <button class="btn border-start rounded-0"><a href="#" class="text-decoration-none text-white"><i
+                        class="bi bi-heart"></i></a></button>
+                </div>
+                
+                <!-- Product name  -->
+                        <div class="product-name mt-md-4 mt-2 mb-2">
+                          <h6 class=""><a href="single.html" class="text-decoration-none">Appollo Tyre 16x28</a>
+                          </h6>
+                          <small class="text-secondary product-model-font-size">Model: Toyota | X Corola</small>
+                        </div>
+                        <!-- Star Rating  -->
+                        <div class="d-flex flex-column">
+                          <span class="mb-2">
+                            <i class="bi bi-star-fill text-warning star-font-size"></i>
+                            <i class="bi bi-star-fill text-warning star-font-size"></i>
+                            <i class="bi bi-star-fill text-warning star-font-size"></i>
+                            <i class="bi bi-star-fill text-warning star-font-size"></i>
+                            <i class="bi bi-star-fill text-secondary star-font-size"></i>
+                          </span>
+                          <!-- Porduct price  -->
+                          <span class="fw-bold mb-3 text-danger fs-6">$40.00</span>
+                        </div>
+                
               </div>
               <!-- per-item end  -->
 
@@ -1087,13 +1179,13 @@
 
   <!-- -----Section-4 == Car Parts == Swiper Slider Start-----  -->
 
-  <div class="container-fluid bg-color mt-5 py-5">
+  <div class="container-fluid mt-md-4 mt-2">
     <div class="container">
       <!-- Slider Heading -->
       <div class="row">
         <div class="col-12 d-flex justify-content-between py-3">
           <div class="cat-heading-hover">
-            <h4><i class="fa-solid fa-angles-right text-danger"></i> <a href="category.html"
+            <h4 class="block-title mb-0"><i class="fa-solid fa-angles-right text-danger"></i> <a href="category.html"
                 class="text-decoration-none">CAR PARTS</a> </h4>
           </div>
           <div class="d-flex">
@@ -1115,14 +1207,16 @@
           <!-- Swiper Start-->
           <div class="swiper mySwiper4">
             <div class="swiper-wrapper">
-              <!-- per-item start  -->
-              <div
-                class="swiper-slide hover-for-slide d-flex flex-column bg-color-slider-none position-relative border">
+             <!-- per-item start  -->
+              <div class="swiper-slide hover-for-slide d-flex flex-column bg-color-slider-none position-relative border">
 
                 <!-- Product photo  -->
-                <div class="product-photo-hover overflow-hidden">
+                <div class="product-photo-hover overflow-hidden border-bottom w-100 position-relative">
                   <a href="single.html"><img src="images/c1.jpg" class="img-fluid" alt="Slider Photo"></a>
-
+                  <!-- Discount Ribbon -->
+                        <div class="discount-ribbon">
+                          <span>-20%</span>
+                        </div>
                 </div>
 
                 <!-- Add to cart button  -->
@@ -1134,36 +1228,39 @@
                   <button class="btn border-start rounded-0"><a href="#" class="text-decoration-none text-white"><i
                         class="bi bi-heart"></i></a></button>
                 </div>
+                
                 <!-- Product name  -->
-                <div class="product-name mt-3 mb-2">
-                  <h5><a href="single.html" class="text-decoration-none bg-color">Appollo Tyre 16x28</a></h5>
-                  <small>Model: Toyota | X Corola</small>
-                </div>
-                <!-- Star Rating  -->
-                <span class="mb-2">
-                  <i class="bi bi-star-fill text-warning"></i>
-                  <i class="bi bi-star-fill text-warning"></i>
-                  <i class="bi bi-star-fill text-warning"></i>
-                  <i class="bi bi-star-fill text-warning"></i>
-                  <i class="bi bi-star-fill text-secondary"></i>
-                </span>
-                <!-- Porduct price  -->
-                <span class="fw-bold mb-3">$40.00</span>
-                <!-- Discount percentage -->
-                <div class="position-absolute start-0 top-0 bg-danger text-white py-2 px-2">
-                  <small>-20%</small>
-                </div>
+                        <div class="product-name mt-md-4 mt-2 mb-2">
+                          <h6 class=""><a href="single.html" class="text-decoration-none">Appollo Tyre 16x28</a>
+                          </h6>
+                          <small class="text-secondary product-model-font-size">Model: Toyota | X Corola</small>
+                        </div>
+                        <!-- Star Rating  -->
+                        <div class="d-flex flex-column">
+                          <span class="mb-2">
+                            <i class="bi bi-star-fill text-warning star-font-size"></i>
+                            <i class="bi bi-star-fill text-warning star-font-size"></i>
+                            <i class="bi bi-star-fill text-warning star-font-size"></i>
+                            <i class="bi bi-star-fill text-warning star-font-size"></i>
+                            <i class="bi bi-star-fill text-secondary star-font-size"></i>
+                          </span>
+                          <!-- Porduct price  -->
+                          <span class="fw-bold mb-3 text-danger fs-6">$40.00</span>
+                        </div>
+                
               </div>
               <!-- per-item end  -->
 
               <!-- per-item start  -->
-              <div
-                class="swiper-slide hover-for-slide d-flex flex-column bg-color-slider-none position-relative border">
+              <div class="swiper-slide hover-for-slide d-flex flex-column bg-color-slider-none position-relative border">
 
                 <!-- Product photo  -->
-                <div class="product-photo-hover overflow-hidden">
+                <div class="product-photo-hover overflow-hidden border-bottom w-100 position-relative">
                   <a href="single.html"><img src="images/c1.jpg" class="img-fluid" alt="Slider Photo"></a>
-
+                  <!-- Discount Ribbon -->
+                        <div class="discount-ribbon">
+                          <span>-20%</span>
+                        </div>
                 </div>
 
                 <!-- Add to cart button  -->
@@ -1175,36 +1272,39 @@
                   <button class="btn border-start rounded-0"><a href="#" class="text-decoration-none text-white"><i
                         class="bi bi-heart"></i></a></button>
                 </div>
+                
                 <!-- Product name  -->
-                <div class="product-name mt-3 mb-2">
-                  <h5><a href="single.html" class="text-decoration-none bg-color">Appollo Tyre 16x28</a></h5>
-                  <small>Model: Toyota | X Corola</small>
-                </div>
-                <!-- Star Rating  -->
-                <span class="mb-2">
-                  <i class="bi bi-star-fill text-warning"></i>
-                  <i class="bi bi-star-fill text-warning"></i>
-                  <i class="bi bi-star-fill text-warning"></i>
-                  <i class="bi bi-star-fill text-warning"></i>
-                  <i class="bi bi-star-fill text-secondary"></i>
-                </span>
-                <!-- Porduct price  -->
-                <span class="fw-bold mb-3">$40.00</span>
-                <!-- Discount percentage -->
-                <div class="position-absolute start-0 top-0 bg-danger text-white py-2 px-2">
-                  <small>-20%</small>
-                </div>
+                        <div class="product-name mt-md-4 mt-2 mb-2">
+                          <h6 class=""><a href="single.html" class="text-decoration-none">Appollo Tyre 16x28</a>
+                          </h6>
+                          <small class="text-secondary product-model-font-size">Model: Toyota | X Corola</small>
+                        </div>
+                        <!-- Star Rating  -->
+                        <div class="d-flex flex-column">
+                          <span class="mb-2">
+                            <i class="bi bi-star-fill text-warning star-font-size"></i>
+                            <i class="bi bi-star-fill text-warning star-font-size"></i>
+                            <i class="bi bi-star-fill text-warning star-font-size"></i>
+                            <i class="bi bi-star-fill text-warning star-font-size"></i>
+                            <i class="bi bi-star-fill text-secondary star-font-size"></i>
+                          </span>
+                          <!-- Porduct price  -->
+                          <span class="fw-bold mb-3 text-danger fs-6">$40.00</span>
+                        </div>
+                
               </div>
               <!-- per-item end  -->
 
               <!-- per-item start  -->
-              <div
-                class="swiper-slide hover-for-slide d-flex flex-column bg-color-slider-none position-relative border">
+              <div class="swiper-slide hover-for-slide d-flex flex-column bg-color-slider-none position-relative border">
 
                 <!-- Product photo  -->
-                <div class="product-photo-hover overflow-hidden">
+                <div class="product-photo-hover overflow-hidden border-bottom w-100 position-relative">
                   <a href="single.html"><img src="images/c1.jpg" class="img-fluid" alt="Slider Photo"></a>
-
+                  <!-- Discount Ribbon -->
+                        <div class="discount-ribbon">
+                          <span>-20%</span>
+                        </div>
                 </div>
 
                 <!-- Add to cart button  -->
@@ -1216,36 +1316,39 @@
                   <button class="btn border-start rounded-0"><a href="#" class="text-decoration-none text-white"><i
                         class="bi bi-heart"></i></a></button>
                 </div>
+                
                 <!-- Product name  -->
-                <div class="product-name mt-3 mb-2">
-                  <h5><a href="single.html" class="text-decoration-none bg-color">Appollo Tyre 16x28</a></h5>
-                  <small>Model: Toyota | X Corola</small>
-                </div>
-                <!-- Star Rating  -->
-                <span class="mb-2">
-                  <i class="bi bi-star-fill text-warning"></i>
-                  <i class="bi bi-star-fill text-warning"></i>
-                  <i class="bi bi-star-fill text-warning"></i>
-                  <i class="bi bi-star-fill text-warning"></i>
-                  <i class="bi bi-star-fill text-secondary"></i>
-                </span>
-                <!-- Porduct price  -->
-                <span class="fw-bold mb-3">$40.00</span>
-                <!-- Discount percentage -->
-                <div class="position-absolute start-0 top-0 bg-danger text-white py-2 px-2">
-                  <small>-20%</small>
-                </div>
+                        <div class="product-name mt-md-4 mt-2 mb-2">
+                          <h6 class=""><a href="single.html" class="text-decoration-none">Appollo Tyre 16x28</a>
+                          </h6>
+                          <small class="text-secondary product-model-font-size">Model: Toyota | X Corola</small>
+                        </div>
+                        <!-- Star Rating  -->
+                        <div class="d-flex flex-column">
+                          <span class="mb-2">
+                            <i class="bi bi-star-fill text-warning star-font-size"></i>
+                            <i class="bi bi-star-fill text-warning star-font-size"></i>
+                            <i class="bi bi-star-fill text-warning star-font-size"></i>
+                            <i class="bi bi-star-fill text-warning star-font-size"></i>
+                            <i class="bi bi-star-fill text-secondary star-font-size"></i>
+                          </span>
+                          <!-- Porduct price  -->
+                          <span class="fw-bold mb-3 text-danger fs-6">$40.00</span>
+                        </div>
+                
               </div>
               <!-- per-item end  -->
 
               <!-- per-item start  -->
-              <div
-                class="swiper-slide hover-for-slide d-flex flex-column bg-color-slider-none position-relative border">
+              <div class="swiper-slide hover-for-slide d-flex flex-column bg-color-slider-none position-relative border">
 
                 <!-- Product photo  -->
-                <div class="product-photo-hover overflow-hidden">
+                <div class="product-photo-hover overflow-hidden border-bottom w-100 position-relative">
                   <a href="single.html"><img src="images/c1.jpg" class="img-fluid" alt="Slider Photo"></a>
-
+                  <!-- Discount Ribbon -->
+                        <div class="discount-ribbon">
+                          <span>-20%</span>
+                        </div>
                 </div>
 
                 <!-- Add to cart button  -->
@@ -1257,36 +1360,39 @@
                   <button class="btn border-start rounded-0"><a href="#" class="text-decoration-none text-white"><i
                         class="bi bi-heart"></i></a></button>
                 </div>
+                
                 <!-- Product name  -->
-                <div class="product-name mt-3 mb-2">
-                  <h5><a href="single.html" class="text-decoration-none bg-color">Appollo Tyre 16x28</a></h5>
-                  <small>Model: Toyota | X Corola</small>
-                </div>
-                <!-- Star Rating  -->
-                <span class="mb-2">
-                  <i class="bi bi-star-fill text-warning"></i>
-                  <i class="bi bi-star-fill text-warning"></i>
-                  <i class="bi bi-star-fill text-warning"></i>
-                  <i class="bi bi-star-fill text-warning"></i>
-                  <i class="bi bi-star-fill text-secondary"></i>
-                </span>
-                <!-- Porduct price  -->
-                <span class="fw-bold mb-3">$40.00</span>
-                <!-- Discount percentage -->
-                <div class="position-absolute start-0 top-0 bg-danger text-white py-2 px-2">
-                  <small>-20%</small>
-                </div>
+                        <div class="product-name mt-md-4 mt-2 mb-2">
+                          <h6 class=""><a href="single.html" class="text-decoration-none">Appollo Tyre 16x28</a>
+                          </h6>
+                          <small class="text-secondary product-model-font-size">Model: Toyota | X Corola</small>
+                        </div>
+                        <!-- Star Rating  -->
+                        <div class="d-flex flex-column">
+                          <span class="mb-2">
+                            <i class="bi bi-star-fill text-warning star-font-size"></i>
+                            <i class="bi bi-star-fill text-warning star-font-size"></i>
+                            <i class="bi bi-star-fill text-warning star-font-size"></i>
+                            <i class="bi bi-star-fill text-warning star-font-size"></i>
+                            <i class="bi bi-star-fill text-secondary star-font-size"></i>
+                          </span>
+                          <!-- Porduct price  -->
+                          <span class="fw-bold mb-3 text-danger fs-6">$40.00</span>
+                        </div>
+                
               </div>
               <!-- per-item end  -->
 
               <!-- per-item start  -->
-              <div
-                class="swiper-slide hover-for-slide d-flex flex-column bg-color-slider-none position-relative border">
+              <div class="swiper-slide hover-for-slide d-flex flex-column bg-color-slider-none position-relative border">
 
                 <!-- Product photo  -->
-                <div class="product-photo-hover overflow-hidden">
+                <div class="product-photo-hover overflow-hidden border-bottom w-100 position-relative">
                   <a href="single.html"><img src="images/c1.jpg" class="img-fluid" alt="Slider Photo"></a>
-
+                  <!-- Discount Ribbon -->
+                        <div class="discount-ribbon">
+                          <span>-20%</span>
+                        </div>
                 </div>
 
                 <!-- Add to cart button  -->
@@ -1298,25 +1404,26 @@
                   <button class="btn border-start rounded-0"><a href="#" class="text-decoration-none text-white"><i
                         class="bi bi-heart"></i></a></button>
                 </div>
+                
                 <!-- Product name  -->
-                <div class="product-name mt-3 mb-2">
-                  <h5><a href="single.html" class="text-decoration-none bg-color">Appollo Tyre 16x28</a></h5>
-                  <small>Model: Toyota | X Corola</small>
-                </div>
-                <!-- Star Rating  -->
-                <span class="mb-2">
-                  <i class="bi bi-star-fill text-warning"></i>
-                  <i class="bi bi-star-fill text-warning"></i>
-                  <i class="bi bi-star-fill text-warning"></i>
-                  <i class="bi bi-star-fill text-warning"></i>
-                  <i class="bi bi-star-fill text-secondary"></i>
-                </span>
-                <!-- Porduct price  -->
-                <span class="fw-bold mb-3">$40.00</span>
-                <!-- Discount percentage -->
-                <div class="position-absolute start-0 top-0 bg-danger text-white py-2 px-2">
-                  <small>-20%</small>
-                </div>
+                        <div class="product-name mt-md-4 mt-2 mb-2">
+                          <h6 class=""><a href="single.html" class="text-decoration-none">Appollo Tyre 16x28</a>
+                          </h6>
+                          <small class="text-secondary product-model-font-size">Model: Toyota | X Corola</small>
+                        </div>
+                        <!-- Star Rating  -->
+                        <div class="d-flex flex-column">
+                          <span class="mb-2">
+                            <i class="bi bi-star-fill text-warning star-font-size"></i>
+                            <i class="bi bi-star-fill text-warning star-font-size"></i>
+                            <i class="bi bi-star-fill text-warning star-font-size"></i>
+                            <i class="bi bi-star-fill text-warning star-font-size"></i>
+                            <i class="bi bi-star-fill text-secondary star-font-size"></i>
+                          </span>
+                          <!-- Porduct price  -->
+                          <span class="fw-bold mb-3 text-danger fs-6">$40.00</span>
+                        </div>
+                
               </div>
               <!-- per-item end  -->
 
@@ -1337,7 +1444,7 @@
       <div class="row">
         <div class="col-12 d-flex justify-content-between py-3">
           <div class="cat-heading-hover">
-            <h4><i class="fa-solid fa-angles-right text-danger"></i> <a href="category.html"
+            <h4 class="block-title mb-0"><i class="fa-solid fa-angles-right text-danger"></i> <a href="category.html"
                 class="text-decoration-none">TRACTOR PARTS</a> </h4>
           </div>
           <div class="d-flex">
@@ -1541,7 +1648,7 @@
       <div class="row">
         <div class="col-12 d-flex justify-content-between py-3">
           <div class="cat-heading-hover">
-            <h4><i class="fa-solid fa-angles-right text-danger"></i> <a href="category.html"
+            <h4 class="block-title mb-0"><i class="fa-solid fa-angles-right text-danger"></i> <a href="category.html"
                 class="text-decoration-none">HARVESTER PARTS</a> </h4>
           </div>
           <div class="d-flex">
@@ -1785,7 +1892,7 @@
       <div class="row">
         <div class="col-12 d-flex justify-content-between py-3">
           <div class="cat-heading-hover">
-            <h4><i class="fa-solid fa-angles-right text-danger"></i> <a href="category.html"
+            <h4 class="block-title mb-0"><i class="fa-solid fa-angles-right text-danger"></i> <a href="category.html"
                 class="text-decoration-none">MOTORBIKE PARTS</a> </h4>
           </div>
           <div class="d-flex">
@@ -1987,7 +2094,7 @@
       <div class="row">
         <div class="col-12 d-flex justify-content-between py-3">
           <div class="h">
-            <h4><i class="fa-solid fa-angles-right text-danger"></i> FEATURED BRAND</h4>
+            <h4 class="block-title mb-0"><i class="fa-solid fa-angles-right text-danger"></i> FEATURED BRAND</h4>
           </div>
           <div class="d-flex">
             <button class="btn brand-button-prev2 button-hover-prev border rounded-0 text-danger me-1"><i

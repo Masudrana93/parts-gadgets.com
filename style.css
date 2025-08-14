@@ -271,6 +271,9 @@ select.form-select {
     top: 10px;
     left: -26px;
   }
+  .add-cart-btn-color{
+    top:60% !important;
+  }
 }
 /* *********Responsive end**********/
 
@@ -609,7 +612,6 @@ select.form-select {
   font-size: 13px;
 }
 
-
 /* Discount Ribbon */
 .discount-ribbon {
   position: absolute;
@@ -632,22 +634,39 @@ select.form-select {
 
 /* add to cart btn only hover visible start */
 
+.hover-for-slide {
+  position: relative;
+}
+
 .add-cart-btn-color {
+  position: absolute;
+  top: 55%; /* photo + product name এর মাঝে */
+  left: 50%;
+  transform: translate(-50%, -50%) translateY(20px); /* center + slide effect */
+  width: 90%; /* প্রয়োজন অনুযায়ী adjust */
+  display: flex;
+  justify-content: space-between;
   opacity: 0;
-  transform: translateY(20px);
-  pointer-events: none; /* hide from mouse events */
-  transition: all 0.5s ease-in-out;
-  background: #444;
+  pointer-events: none;
+  transition: all 0.3s ease-in-out;
+  z-index: 2;
+  background-color: #444;
 }
 
 .hover-for-slide:hover .add-cart-btn-color {
   opacity: 1;
-  transform: translateY(0);
-  pointer-events: auto; /* enable click */
+  transform: translate(-50%, -50%) translateY(0);
+  pointer-events: auto;
 }
 
-
-.min-height {
+/* .min-height {
     min-height: 500px;
-}
+} */
+
 /* add to cart btn only hover visible end */
+
+/* For slider Nav btn color  */
+.btn.disabled, .btn:disabled, fieldset:disabled .btn {
+    
+    background-color: white;
+}
