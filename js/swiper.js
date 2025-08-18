@@ -277,6 +277,92 @@ var swiper = new Swiper(".mySwiper9", {
     }
     });
 
+
+    //for Section-10 == Gadgets == Slider
+    var swiper = new Swiper(".mySwiperGadget", {
+      slidesPerView: 3,
+      spaceBetween: 30,
+      navigation: {
+        nextEl: ".gadgets-parts-button-next",
+        prevEl: ".gadgets-parts-button-prev",
+      },
+      breakpoints: {
+      0: {
+        slidesPerView: 1
+      },
+      576: {
+        slidesPerView: 2,
+        spaceBetween: 15,
+      },
+      768: {
+        slidesPerView: 2,
+        spaceBetween: 20,
+      },
+      992: {
+        slidesPerView: 3,
+        spaceBetween: 25,
+      },
+      
+    }
+    });
+
+    //for Section-11 == Islamic Corner == Slider
+    var swiper = new Swiper(".mySwiperIslamic", {
+      slidesPerView: 3,
+      spaceBetween: 30,
+      navigation: {
+        nextEl: ".islamic-corner-button-next",
+        prevEl: ".islamic-corner-button-prev",
+      },
+      breakpoints: {
+      0: {
+        slidesPerView: 1
+      },
+      576: {
+        slidesPerView: 2,
+        spaceBetween: 15,
+      },
+      768: {
+        slidesPerView: 2,
+        spaceBetween: 20,
+      },
+      992: {
+        slidesPerView: 3,
+        spaceBetween: 25,
+      },
+      
+    }
+    });
+
+   //for Section-12 == Supershop == Slider
+    var swiper = new Swiper(".mySwiperSupershop", {
+      slidesPerView: 3,
+      spaceBetween: 30,
+      navigation: {
+        nextEl: ".supershop-button-next",
+        prevEl: ".supershop-button-prev",
+      },
+      breakpoints: {
+      0: {
+        slidesPerView: 1
+      },
+      576: {
+        slidesPerView: 2,
+        spaceBetween: 15,
+      },
+      768: {
+        slidesPerView: 2,
+        spaceBetween: 20,
+      },
+      992: {
+        slidesPerView: 3,
+        spaceBetween: 25,
+      },
+      
+    }
+    });
+
+
 //****** For Single Page *********
   
     // -----Product View ----
