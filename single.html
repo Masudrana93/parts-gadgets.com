@@ -18,7 +18,7 @@
 
 </head>
 
-<body>
+<body class="bg-white">
 
     <!-- ----------- Header Section Start------------ -->
     <!-- Top Bar -->
@@ -171,17 +171,17 @@
 
                     <!-- Thumbnail Images -->
                     <div class="row justify-content-between">
-                        <div class="col-3 col-sm-2">
+                        <div class="col-3">
                             <img src="images/t-shirt.jpg" class="img-fluid thumbnail-image" onclick="changeImage(this)">
                         </div>
-                        <div class="col-3 col-sm-2">
+                        <div class="col-3">
                             <img src="images/cats.jpg" class="img-fluid thumbnail-image" onclick="changeImage(this)">
                         </div>
-                        <div class="col-3 col-sm-2">
+                        <div class="col-3">
                             <img src="images/cycle.jpg" class="img-fluid thumbnail-image active"
                                 onclick="changeImage(this)">
                         </div>
-                        <div class="col-3 col-sm-2">
+                        <div class="col-3">
                             <img src="images/cats-2.jpg" class="img-fluid thumbnail-image" onclick="changeImage(this)">
                         </div>
 
@@ -192,7 +192,7 @@
                 <!-- Product information start  -->
                 <div class="col-md-6">
                     <p class="brand-name-hover"><a href="#" class="text-decoration-none text-secondary">TOYOTA</a></p>
-                    <h3 class="fw-bold mb-md-3 mb-2">T-Shirt</h3>
+                    <h4 class="fw-bold mb-md-3 mb-2">T-Shirt</h4>
                     <!-- Star Rating and reviews -->
                     <div class="review-star mb-md-3 mb-2">
                         <span class="mb-2 me-2">
@@ -207,17 +207,17 @@
                         <span><a href="#" class="text-decoration-none text-secondary">Write a review</a></span>
                     </div>
                     <!-- producr price  -->
-                    <h3 class="fw-bold text-danger">$120</h3>
+                    <h4 class="fw-bold text-danger">$120</h4>
 
                     <!-- Color Selection -->
                     <div class="mb-3 mt-4">
                         <label class="form-label fw-semibold">Color:</label>
                         <div class="d-flex gap-2">
-                            <button class="btn border rounded-2 p-2" style="background-color: red;"
+                            <button class="btn border rounded-circle p-2" style="background-color: red;"
                                 title="Red"></button>
-                            <button class="btn border rounded-2 p-2" style="background-color: blue;"
+                            <button class="btn border rounded-circle p-2" style="background-color: blue;"
                                 title="Blue"></button>
-                            <button class="btn border rounded-2 p-2" style="background-color: black;"
+                            <button class="btn border rounded-circle p-2" style="background-color: black;"
                                 title="Black"></button>
                         </div>
                     </div>
@@ -237,19 +237,19 @@
                     <div class="mb-4">
                         <label class="form-label fw-semibold">Quantity:</label>
                         <div class="input-group" style="max-width: 150px;">
-                            <button class="btn btn-outline-secondary btn-sm" type="button"
+                            <button class="btn btn-outline-secondary btn-sm rounded-start-pill" type="button"
                                 onclick="decreaseQty()">-</button>
                             <input type="number" id="qtyInput" class="form-control form-control-sm text-center"
                                 value="1" min="1">
-                            <button class="btn btn-outline-secondary btn-sm" type="button"
+                            <button class="btn btn-outline-secondary btn-sm rounded-end-pill" type="button"
                                 onclick="increaseQty()">+</button>
                         </div>
                     </div>
 
                     <!-- Action Buttons: Add to Cart, Buy Now, Share -->
                     <div class="mt-4 d-flex gap-3 flex-wrap">
-                        <button class="btn btn-warning  rounded-0">⚡ Buy Now</button>
-                        <button class="btn btn-primary  rounded-0">🛒 Add to Cart</button>
+                        <button class="btn btn-success  rounded-0">Buy Now</button>
+                        <button class="btn btn-danger rounded-0">Add to Cart</button>
                         <button class="btn btn-outline-secondary rounded-0" onclick="shareProduct()"> <i
                                 class="bi bi-share"></i> </button>
                     </div>
