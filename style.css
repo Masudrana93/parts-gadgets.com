@@ -670,3 +670,20 @@ select.form-select {
     
     background-color: white;
 }
+
+/* for single page recommanded product  */
+.recon-customer {
+      text-align: center;
+      font-size: 18px;
+      /* background: #444; */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .recon-customer img {
+      display: block;
+      width: 100%;
+      height: auto;
+      object-fit: cover;
+    }
